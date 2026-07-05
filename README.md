@@ -1,0 +1,1 @@
+# EdgeAI_based_Predictive_Maintanence
