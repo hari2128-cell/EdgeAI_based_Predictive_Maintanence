@@ -1,0 +1,66 @@
+# Build artifacts
+build/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino
+*.ino.cpp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# TensorFlow / Model artifacts
+*.h5
+*.ckpt
+saved_model/
+logs/
+
+# Node / Dashboard
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database
+*.sqlite
+*.db
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Datasets (large raw files - track via Git LFS or external storage)
+datasets/Raw/*.csv
+!datasets/Raw/.gitkeep
+
+# Secrets
+secrets.h
+credentials.json
+mqtt_credentials.env
